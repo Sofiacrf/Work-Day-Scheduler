@@ -12,7 +12,8 @@ This project is in its testing phase.
  * Create an HTML, CSS and Javascript file
  * Write the HTML and CSS code previously provided
  * Write the jQuery code
- * Use moment in order to select the time and date and display it
+ * Use moment in order to select the time that is being display at the begining of the page
+ * Use moment in order to selec the current time and display the css style for that period of time
  * Use google DevTools in order to inspect if the code is running correctly
  * Pull and commit changes on Github
  * Publish the website on Github pages
