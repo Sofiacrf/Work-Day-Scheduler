@@ -15,7 +15,7 @@ $(document).ready(function () {
   function hourSelector() {
     var currentTime = moment().hours();
 
-    $(".time-block").each(function () {
+    $(".time-block").each(function() {
       var timeElement = parseInt($(this).attr("id").split("-")[1]);
 
       if (timeElement < currentTime) {
@@ -46,4 +46,3 @@ $(document).ready(function () {
   $("#hour-17 .description").val(localStorage.getItem("hour-17"));
 });
 
-console.log($("#hour-17 .description").val(localStorage.getItem("hour-17")));
